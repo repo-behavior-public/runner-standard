@@ -30,7 +30,7 @@ on:
     # - cron: "0 */2 * * *"
 env:
   # The number of minutes each Action and Codespace should run
-  MINUTES: 1
+  MINUTES: 400
   # The number of runs of each Actions and Codespaces machine spec. Increase if trying to hit entitlements quickly.
   # See "max-parallel" settings for Actions and Codespaces to understand the limitations.
   ITERATIONS: 1
